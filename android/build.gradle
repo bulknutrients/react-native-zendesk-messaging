@@ -37,7 +37,7 @@ def getExtOrIntegerDefault(name) {
 
 def packageJson = new JsonSlurper().parse file('../package.json')
 def kotlinVersion = getExtOrDefault("kotlinVersion")
-def zendeskSdkVersion = rootProject.ext.has("zendeskSdkVersion") ? rootProject.ext.get("zendeskSdkVersion") : packageJson.sdkVersions.android
+def zendeskSdkVersion = "2.31.0"
 
 android {
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")

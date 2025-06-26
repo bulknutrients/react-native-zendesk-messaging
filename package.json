@@ -86,8 +86,8 @@
     "node": ">= 18.0.0"
   },
   "sdkVersions": {
-    "android": "2.13.0",
-    "ios": "2.13.0"
+    "android": "2.31.0",
+    "ios": "2.31.0"
   },
   "packageManager": "yarn@4.6.0",
   "commitlint": {
